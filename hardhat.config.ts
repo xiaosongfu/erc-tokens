@@ -22,7 +22,7 @@ const config: HardhatUserConfig = {
   },
   publishTypechain: {
     name: "erc-tokens",
-    version: "0.3.0",
+    version: "0.3.1",
     repository: "https://github.com/xiaosongfu/erc-tokens",
     includeDeployed: true,
     authToken: process.env.AUTH_TOKEN || "npm_pZB...zyP", // NOTICE: You need to get your own token to publish packages
